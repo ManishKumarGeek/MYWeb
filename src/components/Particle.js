@@ -7,20 +7,20 @@ const FireParticles = () => {
       enable: true,
       zIndex: -1 // Position particles behind content
     },
-    fpsLimit: 60,
+    fpsLimit: 120,
     particles: {
       number: {
-        value: 50
+        value: 175
       },
       color: {
-        value: ["#fdcf58", "#757676", "#f27d0c", "#800909", "#f07f13"]
+        value: ["#6dc3df", "#81d2ed", "#c7f0fe", "#daedef", "#b1eaf0"]
       },
       opacity: {
-        value: 0.5,
+        value: 0.25,
         random: true,
         anim: {
           enable: true,
-          speed: 1,
+          speed: .45,
           opacity_min: 0.25,
           sync: false
         }
@@ -32,7 +32,7 @@ const FireParticles = () => {
       move: {
         enable: true,
         speed: 1,
-        direction: "top",
+        direction: "down",
         random: false,
         straight: false,
         out_mode: "out",
@@ -41,7 +41,7 @@ const FireParticles = () => {
         }
       },
       shape: {
-        type: "circle"
+        type: ["circle", "triangle", "polygon", "star"]
       },
       line_linked: {
         enable: false
@@ -66,3 +66,4 @@ const FireParticles = () => {
 };
 
 export default FireParticles;
+//https://w7.pngwing.com/pngs/648/933/png-transparent-green-among-us-cartoons-among-us.png
