@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Connect_pro from "../../Assets/Projects/Connect_pro.png";
 import Tulips from "../../Assets/Projects/Tulips.png";
 import Unity from "../../Assets/Projects/Unity.png";
+import calculator from "../../Assets/Projects/Calculator.png"
 
 
 function Projects() {
@@ -72,17 +73,17 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+ */}
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={calculator}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Calculator"
+              description="A simple calculator created using Android Studio and Kotlin with jetpack compose."
+              demoLink="https://drive.google.com/file/d/1cJ6JM350EKHjJHfyy-7ulbP_4FIW7ihx/view?usp=sharing"
+              ghLink="https://github.com/ManishKumarGeek/Kotlin_Calculator"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>

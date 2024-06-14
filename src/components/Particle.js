@@ -66,4 +66,3 @@ const FireParticles = () => {
 };
 
 export default FireParticles;
-//https://w7.pngwing.com/pngs/648/933/png-transparent-green-among-us-cartoons-among-us.png
