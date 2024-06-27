@@ -6,6 +6,7 @@ import Connect_pro from "../../Assets/Projects/Connect_pro.png";
 import Tulips from "../../Assets/Projects/Tulips.png";
 import Unity from "../../Assets/Projects/Unity.png";
 import calculator from "../../Assets/Projects/Calculator.png"
+import PyGuiGPT from "../../Assets/Projects/PyGuiGPT.jpg"
 
 
 function Projects() {
@@ -51,30 +52,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
- */}
-           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calculator}
               isBlog={false}
@@ -82,6 +60,16 @@ function Projects() {
               description="A simple calculator created using Android Studio and Kotlin with jetpack compose."
               demoLink="https://drive.google.com/file/d/1cJ6JM350EKHjJHfyy-7ulbP_4FIW7ihx/view?usp=sharing"
               ghLink="https://github.com/ManishKumarGeek/Kotlin_Calculator"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PyGuiGPT}
+              isBlog={false}
+              title="PyGuiGPT"
+              description="A script automates generating, typing, and saving Python solutions from OpenAI GPT-3 model using PyAutoGUI."
+              ghLink="https://github.com/ManishKumarGeek/GPTxPyautoGui-for-python-only/tree/main"
             />
           </Col>
         </Row>
